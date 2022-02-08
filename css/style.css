@@ -6,16 +6,34 @@ body {
   text-align: center;
 }
 
-div > h1 {
+.lasagna-heading {
   font-family: 'Lobster', cursive;
   font-family: 'Lobster Two', cursive;
-  font-size: 47px;
   color: red;
 }
 
 .lasagna-img {
-  width: 35%;
+  width: 25%;
   border: 2px solid rgb(240, 91, 5);
+}
+
+.eggplant-img {
+  width: 35%;
+  border: 2px solid rgb(193, 5, 240);
+}
+
+.eggplant-heading {
+  font-family: 'Lobster', cursive;
+  font-family: 'Lobster Two', cursive;
+  color: rgb(193, 5, 240);
+}
+
+#recipe-desc {
+  padding: 0 100px;
+}
+
+#recipe-steps {
+  padding: 0 100px;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Lobster+Two&display=swap');
