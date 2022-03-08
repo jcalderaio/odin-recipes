@@ -2,23 +2,27 @@ body {
   padding-top: 50px;
 }
 
+body div {
+  padding-top: 30px;
+  text-align: center;
+}
+
 .center {
   text-align: center;
 }
 
 .lasagna-heading {
-  font-family: 'Lobster', cursive;
-  font-family: 'Lobster Two', cursive;
+  font-family: 'Lobster', 'Lobster Two', sans-serif, cursive;
   color: red;
 }
 
 .lasagna-img {
-  width: 25%;
+  width: 30%;
   border: 2px solid rgb(240, 91, 5);
 }
 
 .eggplant-img {
-  width: 35%;
+  width: 30%;
   border: 2px solid rgb(193, 5, 240);
 }
 
