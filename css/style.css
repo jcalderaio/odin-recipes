@@ -1,19 +1,10 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
-  padding-top: 50px;
-}
-
-body div {
-  padding-top: 30px;
+  margin: 0;
   text-align: center;
-}
-
-.center {
-  text-align: center;
-}
-
-.lasagna-heading {
-  font-family: 'Lobster', 'Lobster Two', sans-serif, cursive;
-  color: red;
 }
 
 .lasagna-img {
@@ -26,9 +17,21 @@ body div {
   border: 2px solid rgb(193, 5, 240);
 }
 
+.recipe-heading {
+  font-family: cursive, sans-serif;
+  color: rgba(11, 120, 245, 0.945);
+  font-size: 72px;
+  text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000,
+    -1px -1px 0 #000;
+}
+
+.lasagna-heading {
+  font-family: cursive, sans-serif;
+  color: red;
+}
+
 .eggplant-heading {
-  font-family: 'Lobster', cursive;
-  font-family: 'Lobster Two', cursive;
+  font-family: cursive, sans-serif;
   color: rgb(193, 5, 240);
 }
 
@@ -40,4 +43,22 @@ body div {
   padding: 0 100px;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Lobster+Two&display=swap');
+.spacer {
+  padding-top: 30px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav form {
+  float: left;
+  display: block;
+  color: #f2f2f23a;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
