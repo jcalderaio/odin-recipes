@@ -4,6 +4,7 @@
 
 body {
   margin: 0;
+  padding-bottom: 70px;
   text-align: center;
 }
 
@@ -15,6 +16,11 @@ body {
 .eggplant-img {
   width: 30%;
   border: 2px solid rgb(193, 5, 240);
+}
+
+.filet-mignon-img {
+  width: 30%;
+  border: 2px solid saddlebrown;
 }
 
 .recipe-heading {
@@ -33,6 +39,11 @@ body {
 .eggplant-heading {
   font-family: cursive, sans-serif;
   color: rgb(193, 5, 240);
+}
+
+.filet-mignon-heading {
+  font-family: cursive, sans-serif;
+  color: saddlebrown;
 }
 
 #recipe-desc {
