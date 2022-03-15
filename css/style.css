@@ -8,23 +8,33 @@ body {
   text-align: center;
 }
 
-.lasagna-img {
+.lasagna-img,
+.eggplant-img,
+.filet-mignon-img {
   width: 30%;
+  height: auto;
+}
+
+.lasagna-img {
   border: 2px solid rgb(240, 91, 5);
 }
 
 .eggplant-img {
-  width: 30%;
   border: 2px solid rgb(193, 5, 240);
 }
 
 .filet-mignon-img {
-  width: 30%;
   border: 2px solid saddlebrown;
 }
 
-.recipe-heading {
+.recipe-heading,
+.lasagna-heading,
+.eggplant-heading,
+.filet-mignon-heading {
   font-family: cursive, sans-serif;
+}
+
+.recipe-heading {
   color: rgba(11, 120, 245, 0.945);
   font-size: 72px;
   text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000,
@@ -32,24 +42,18 @@ body {
 }
 
 .lasagna-heading {
-  font-family: cursive, sans-serif;
   color: red;
 }
 
 .eggplant-heading {
-  font-family: cursive, sans-serif;
   color: rgb(193, 5, 240);
 }
 
 .filet-mignon-heading {
-  font-family: cursive, sans-serif;
   color: saddlebrown;
 }
 
-#recipe-desc {
-  padding: 0 100px;
-}
-
+#recipe-desc,
 #recipe-steps {
   padding: 0 100px;
 }
